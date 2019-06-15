@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410D17D2226B593F006245EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D17D1226B593F006245EF /* AppDelegate.swift */; };
+		410D17D4226B593F006245EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D17D3226B593F006245EF /* ViewController.swift */; };
+		410D17D7226B593F006245EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410D17D5226B593F006245EF /* Main.storyboard */; };
+		410D17D9226B5940006245EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410D17D8226B5940006245EF /* Assets.xcassets */; };
+		410D17DC226B5940006245EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410D17DA226B5940006245EF /* LaunchScreen.storyboard */; };
+		410D17E7226B5940006245EF /* PasandoDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D17E6226B5940006245EF /* PasandoDataTests.swift */; };
+		410D17F2226B5940006245EF /* PasandoDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D17F1226B5940006245EF /* PasandoDataUITests.swift */; };
+		410D1800226B5D02006245EF /* VistaDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D17FF226B5D02006245EF /* VistaDos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410D17E3226B5940006245EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410D17C6226B593F006245EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410D17CD226B593F006245EF;
+			remoteInfo = PasandoData;
+		};
+		410D17EE226B5940006245EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410D17C6226B593F006245EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410D17CD226B593F006245EF;
+			remoteInfo = PasandoData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410D17CE226B593F006245EF /* PasandoData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasandoData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D17D1226B593F006245EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410D17D3226B593F006245EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410D17D6226B593F006245EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410D17D8226B5940006245EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410D17DB226B5940006245EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410D17DD226B5940006245EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D17E2226B5940006245EF /* PasandoDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasandoDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D17E6226B5940006245EF /* PasandoDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasandoDataTests.swift; sourceTree = "<group>"; };
+		410D17E8226B5940006245EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D17ED226B5940006245EF /* PasandoDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasandoDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D17F1226B5940006245EF /* PasandoDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasandoDataUITests.swift; sourceTree = "<group>"; };
+		410D17F3226B5940006245EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D17FF226B5D02006245EF /* VistaDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410D17CB226B593F006245EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D17DF226B5940006245EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D17EA226B5940006245EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410D17C5226B593F006245EF = {
+			isa = PBXGroup;
+			children = (
+				410D17D0226B593F006245EF /* PasandoData */,
+				410D17E5226B5940006245EF /* PasandoDataTests */,
+				410D17F0226B5940006245EF /* PasandoDataUITests */,
+				410D17CF226B593F006245EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410D17CF226B593F006245EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410D17CE226B593F006245EF /* PasandoData.app */,
+				410D17E2226B5940006245EF /* PasandoDataTests.xctest */,
+				410D17ED226B5940006245EF /* PasandoDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410D17D0226B593F006245EF /* PasandoData */ = {
+			isa = PBXGroup;
+			children = (
+				410D17D1226B593F006245EF /* AppDelegate.swift */,
+				410D17D3226B593F006245EF /* ViewController.swift */,
+				410D17D5226B593F006245EF /* Main.storyboard */,
+				410D17FF226B5D02006245EF /* VistaDos.swift */,
+				410D17D8226B5940006245EF /* Assets.xcassets */,
+				410D17DA226B5940006245EF /* LaunchScreen.storyboard */,
+				410D17DD226B5940006245EF /* Info.plist */,
+			);
+			path = PasandoData;
+			sourceTree = "<group>";
+		};
+		410D17E5226B5940006245EF /* PasandoDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				410D17E6226B5940006245EF /* PasandoDataTests.swift */,
+				410D17E8226B5940006245EF /* Info.plist */,
+			);
+			path = PasandoDataTests;
+			sourceTree = "<group>";
+		};
+		410D17F0226B5940006245EF /* PasandoDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410D17F1226B5940006245EF /* PasandoDataUITests.swift */,
+				410D17F3226B5940006245EF /* Info.plist */,
+			);
+			path = PasandoDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410D17CD226B593F006245EF /* PasandoData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D17F6226B5940006245EF /* Build configuration list for PBXNativeTarget "PasandoData" */;
+			buildPhases = (
+				410D17CA226B593F006245EF /* Sources */,
+				410D17CB226B593F006245EF /* Frameworks */,
+				410D17CC226B593F006245EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasandoData;
+			productName = PasandoData;
+			productReference = 410D17CE226B593F006245EF /* PasandoData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410D17E1226B5940006245EF /* PasandoDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D17F9226B5940006245EF /* Build configuration list for PBXNativeTarget "PasandoDataTests" */;
+			buildPhases = (
+				410D17DE226B5940006245EF /* Sources */,
+				410D17DF226B5940006245EF /* Frameworks */,
+				410D17E0226B5940006245EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410D17E4226B5940006245EF /* PBXTargetDependency */,
+			);
+			name = PasandoDataTests;
+			productName = PasandoDataTests;
+			productReference = 410D17E2226B5940006245EF /* PasandoDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410D17EC226B5940006245EF /* PasandoDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D17FC226B5940006245EF /* Build configuration list for PBXNativeTarget "PasandoDataUITests" */;
+			buildPhases = (
+				410D17E9226B5940006245EF /* Sources */,
+				410D17EA226B5940006245EF /* Frameworks */,
+				410D17EB226B5940006245EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410D17EF226B5940006245EF /* PBXTargetDependency */,
+			);
+			name = PasandoDataUITests;
+			productName = PasandoDataUITests;
+			productReference = 410D17ED226B5940006245EF /* PasandoDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410D17C6226B593F006245EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Koat;
+				TargetAttributes = {
+					410D17CD226B593F006245EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					410D17E1226B5940006245EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 410D17CD226B593F006245EF;
+					};
+					410D17EC226B5940006245EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 410D17CD226B593F006245EF;
+					};
+				};
+			};
+			buildConfigurationList = 410D17C9226B593F006245EF /* Build configuration list for PBXProject "PasandoData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410D17C5226B593F006245EF;
+			productRefGroup = 410D17CF226B593F006245EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410D17CD226B593F006245EF /* PasandoData */,
+				410D17E1226B5940006245EF /* PasandoDataTests */,
+				410D17EC226B5940006245EF /* PasandoDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410D17CC226B593F006245EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D17DC226B5940006245EF /* LaunchScreen.storyboard in Resources */,
+				410D17D9226B5940006245EF /* Assets.xcassets in Resources */,
+				410D17D7226B593F006245EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D17E0226B5940006245EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D17EB226B5940006245EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410D17CA226B593F006245EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D1800226B5D02006245EF /* VistaDos.swift in Sources */,
+				410D17D4226B593F006245EF /* ViewController.swift in Sources */,
+				410D17D2226B593F006245EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D17DE226B5940006245EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D17E7226B5940006245EF /* PasandoDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D17E9226B5940006245EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D17F2226B5940006245EF /* PasandoDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410D17E4226B5940006245EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410D17CD226B593F006245EF /* PasandoData */;
+			targetProxy = 410D17E3226B5940006245EF /* PBXContainerItemProxy */;
+		};
+		410D17EF226B5940006245EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410D17CD226B593F006245EF /* PasandoData */;
+			targetProxy = 410D17EE226B5940006245EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410D17D5226B593F006245EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410D17D6226B593F006245EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410D17DA226B5940006245EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410D17DB226B5940006245EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410D17F4226B5940006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410D17F5226B5940006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410D17F7226B5940006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC2GH4SA49;
+				INFOPLIST_FILE = PasandoData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kato.PasandoData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410D17F8226B5940006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC2GH4SA49;
+				INFOPLIST_FILE = PasandoData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kato.PasandoData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		410D17FA226B5940006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC2GH4SA49;
+				INFOPLIST_FILE = PasandoDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kato.PasandoDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasandoData.app/PasandoData";
+			};
+			name = Debug;
+		};
+		410D17FB226B5940006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC2GH4SA49;
+				INFOPLIST_FILE = PasandoDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kato.PasandoDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasandoData.app/PasandoData";
+			};
+			name = Release;
+		};
+		410D17FD226B5940006245EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC2GH4SA49;
+				INFOPLIST_FILE = PasandoDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kato.PasandoDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasandoData;
+			};
+			name = Debug;
+		};
+		410D17FE226B5940006245EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC2GH4SA49;
+				INFOPLIST_FILE = PasandoDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kato.PasandoDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasandoData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410D17C9226B593F006245EF /* Build configuration list for PBXProject "PasandoData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D17F4226B5940006245EF /* Debug */,
+				410D17F5226B5940006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D17F6226B5940006245EF /* Build configuration list for PBXNativeTarget "PasandoData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D17F7226B5940006245EF /* Debug */,
+				410D17F8226B5940006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D17F9226B5940006245EF /* Build configuration list for PBXNativeTarget "PasandoDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D17FA226B5940006245EF /* Debug */,
+				410D17FB226B5940006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D17FC226B5940006245EF /* Build configuration list for PBXNativeTarget "PasandoDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D17FD226B5940006245EF /* Debug */,
+				410D17FE226B5940006245EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410D17C6226B593F006245EF /* Project object */;
+}

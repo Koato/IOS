@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Animaciones"; ObjectID = "3KO-Rx-Fvb"; */
+"3KO-Rx-Fvb.text" = "Animations";
+
+/* Class = "UIButton"; normalTitle = "Shine"; ObjectID = "3k9-eQ-zfo"; */
+"3k9-eQ-zfo.normalTitle" = "Brillar";
+
+/* Class = "UIButton"; normalTitle = "Jump"; ObjectID = "3wk-Ug-ojT"; */
+"3wk-Ug-ojT.normalTitle" = "Saltar";
+
+/* Class = "UILabel"; text = "Traduccion y personalizacion de fuentes"; ObjectID = "AD3-Og-qXP"; */
+"AD3-Og-qXP.text" = "Translation and customization of soruces";
+
+/* Class = "UIButton"; normalTitle = "Rebotar"; ObjectID = "Dz6-As-vSQ"; */
+"Dz6-As-vSQ.normalTitle" = "Bounce";
