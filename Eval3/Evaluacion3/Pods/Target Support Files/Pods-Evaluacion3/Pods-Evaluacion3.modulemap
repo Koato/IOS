@@ -1,0 +1,6 @@
+framework module Pods_Evaluacion3 {
+  umbrella header "Pods-Evaluacion3-umbrella.h"
+
+  export *
+  module * { export * }
+}

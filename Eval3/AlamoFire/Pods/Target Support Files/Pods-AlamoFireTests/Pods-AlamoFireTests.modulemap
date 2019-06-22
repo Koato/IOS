@@ -1,0 +1,6 @@
+framework module Pods_AlamoFireTests {
+  umbrella header "Pods-AlamoFireTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
