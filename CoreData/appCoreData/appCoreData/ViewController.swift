@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreData
 
-var task = [String]()
+var tasks = [NSManagedObject]()
 
 class ViewController: UIViewController, UITableViewDataSource{
     
@@ -18,7 +19,8 @@ class ViewController: UIViewController, UITableViewDataSource{
         
         let saveAction = UIAlertAction(title: "Guardar", style: .default, handler:{(action: UIAlertAction) -> Void in
             let textfield = alert.textFields!.first
-            task.append(textfield!.text!)
+            //task.append(textfield!.text!)
+            self.saveTask(name: textfield!.text!)
             self.tblData.reloadData()
         })
         
@@ -39,13 +41,30 @@ class ViewController: UIViewController, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return task.count
+        return tasks.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tblData.dequeueReusableCell(withIdentifier: "Cell")
-        cell!.textLabel!.text = task[indexPath.row]
+        //cell!.textLabel!.text = task[indexPath.row]
+        let tak = tasks[indexPath.row]
+        cell!.textLabel!.text = tasks.value(forKey: "name") as? String
+        
         return cell!
+    }
+    
+    func saveTask(name: String){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let managedContext = appDelegate.persistentContainer.viewContext
+        let entity = NSEntityDescription.entity(forEntityName: "Task", in: managedContext)
+        let task = NSManagedObject(entity: entity!, insertInto: managedContext)
+        task.setValue(name, forKey: "name")
+        do {
+            try managedContext.save()
+            tasks.append(task)
+        } catch let error as NSError {
+            print("No ha sido posible guardar la informacion \(error)")
+        }
     }
 
 }
